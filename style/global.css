@@ -1,0 +1,187 @@
+:root {
+    --w-color: rgba(255,255,255,1);
+    --b-color: rgba(55, 57, 63, 1);
+    --b-colorCard:rgba(46, 47, 52, 1);
+    --first-color:rgba(64, 221, 182, 1);
+    --second-color:rgba(107, 119, 229, 1);
+    --star-color:rgba(255, 179, 66, 1);
+    --text-paragraph:rgba(125, 125, 125, 1);
+    --text-paragraph-one:rgba(185, 185, 185, 1);
+    --opacity-card:rgba(107, 119, 229, 0.7);
+    --backContact:rgba(55, 57, 63, 0.91);
+    --gray-light:rgba(244, 244, 244, 1);
+    --gray-light-two:rgba(248, 248, 248, 1);
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0 !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* vertical-align: 0 !important; */
+}
+
+button,
+input {
+    border: 0;
+    outline: 0;
+}
+
+.AboutBusiness,
+.chooseMeHome,
+.ourProject {
+    overflow-x: hidden;
+}
+
+.white-space {
+    white-space: nowrap;
+}
+
+/* @media (min-width:1200px) {
+    .pl-pr {
+        padding: 0 4rem;
+    }
+} */
+
+.VerAlign__img {
+    vertical-align: 0 !important;
+}
+
+.btnLinkBlue{
+    background-color: var(--second-color);
+    color: var(--w-color);
+    padding: .6rem 1.5rem;
+}
+
+.btnLinkGreenBL {
+    background-color: var(--first-color);
+    color: var(--b-color);
+    padding: .6rem 1.5rem;
+}
+
+.btnLinkGreenWH {
+    background-color: var(--first-color);
+    color: var(--w-color);
+    padding: .6rem 1.5rem;
+    height: fit-content;
+}
+
+.SecP__TB {
+    padding-top: 6.7rem;
+}
+
+@media (0 < width <= 768px) {
+    .SecP__TB {
+        padding-top: 4rem;
+    }
+}
+
+.backContact {
+    background-color: var(--backContact);
+    width: 630px;
+    height: 100%;
+    backdrop-filter: blur(7px);
+}
+
+@media (0 < width <= 650px) {
+    .backContact {
+        width: 100%;
+    }
+}
+
+.boxStyle , 
+.boxStyleBlue {
+    width: 10px;
+    height: 10px;
+}
+
+.boxStyle {
+    background-color: var(--first-color);
+}
+
+.boxStyleBlue {
+    background-color: var(--second-color);
+}
+
+.GlobalContact {
+    width: 70%;
+    height: fit-content;
+}
+
+.boxGrid {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.shadow {
+    box-shadow: 0 0 5px var(--text-paragraph-one);
+}
+
+.textCenter {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.weightColor {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-md-75 {
+    width: 75%;
+}
+
+@media (0 < width <= 768px) {
+    .w-md-75 {
+        width: 100%;
+    }
+}
+
+@media (0 < width <= 576px) {
+    .margin-inline {
+    margin-inline: 0 2.7rem;
+}
+}
+
+.hr {
+    margin: 5rem 0;
+    border-top: 1px solid rgb(0 0 0 / 50%);
+}
+
+.goUp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--first-color);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 3px 5px #00000069;
+    font-size: 1.5rem;
+    color: var(--w-color);
+}

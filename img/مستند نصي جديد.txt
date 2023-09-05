@@ -1,0 +1,16 @@
+<i class="fa-regular fa-handshake"></i>
+<i class="fa-solid fa-briefcase"></i>
+<i class="fa-regular fa-file-code"></i>
+<i class="fa-solid fa-users"></i>
+بنك
+<i class="fa-solid fa-building-columns"></i>
+تحليل
+<i class="fa-solid fa-chart-simple"></i>
+ملف كود
+<i class="fa-regular fa-file-code"></i>
+مبنى
+<i class="fa-regular fa-building"></i>
+شهادة
+<i class="fa-solid fa-certificate"></i>
+كتب
+<i class="fa-solid fa-book"></i>
